@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="app-index">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab - Typescript and Angular 1.x</title>
+
+  <!-- Test Vendors -->
+  <link rel="stylesheet" href="public/vendor/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="public/vendor/bootstrap/dist/css/bootstrap-theme.min.css"/>
+  <script src="public/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="public/vendor/lodash/dist/lodash.min.js"></script>
+  <script src="public/vendor/angularjs/angular.js"></script>
+
+  <!-- Our App -->
+  <script src="public/javascripts-min/apps/index.js"></script>
+</head>
+<body ng-controller="indexController as vm">
+  <h1>This is the Index Application</h1>
+  <br/>
+  <br/>
+  <p>Name is {{vm.name}}</p>
+  <br/>
+  <input type="button" ng-click="vm.test()" value="Test me!" />
+</body>
+</html>

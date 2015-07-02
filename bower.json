@@ -1,0 +1,33 @@
+{
+  "name": "lab_typescript_angular1.x",
+  "version": "1.0.0",
+  "private": "true",
+  "dependencies": {
+    "angularjs": "1.3.5",
+    "angular-animate": "1.3.5",
+    "angular-busy": "4.1.2",
+    "angular-cookies": "1.3.5",
+    "angular-dialog-service": "5.2.5",
+    "angular-formly": "6.14.0",
+    "angular-ui-utils": "0.2.1",
+    "angular-local-storage": "0.1.3",
+    "angular-mocks": "1.3.5",
+    "angular-resource": "1.3.5",
+    "angular-route": "1.3.5",
+    "angular-sanitize": "1.2.26",
+    "angularjs-toaster": "0.4.8",
+    "angular-ui-router": "0.2.15",
+    "api-check": "7.3.0",
+    "bootstrap-sass-official": "3.3.0",
+    "bourbon": "4.0.2",
+    "compass-mixins": "1.0.1",
+    "font-awesome": "4.2.0",
+    "inuit-normalize": "3.0.1",
+    "jquery": "1.11.1",
+    "jquery-placeholder": "2.0.8",
+    "lodash": "2.4.1",
+    "moment": "~2.8.4",
+    "angular-messages": "~1.3.8",
+    "xdomain": "0.6.7"
+  }
+}
